@@ -12,7 +12,7 @@ Columms:
 - note TEXT NULL
 - prezzo NOT NULL
 - numero telaio NOT NULL
-- km NOT NULL
+- km NOT NULL FLOAT(8,2)
 - targa NULL
 - carburante NOT NULL
 - porte NOT NULL
