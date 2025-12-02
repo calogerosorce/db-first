@@ -11,13 +11,13 @@ Columms:
 - disponibilità TINYINT DEFAULT(0)
 - note TEXT NULL
 - prezzo NOT NULL
-- numero telaio NOT NULL
+- numero_telaio NOT NULL
 - km NOT NULL FLOAT(8,2)
 - targa NULL
 - carburante NOT NULL
 - porte NOT NULL
-- anno d'immatricolazione NOT NULL
-- tipo di cambio NOT NULL
+- anno_di_immatricolazione NOT NULL
+- tipo_di_cambio NOT NULL
 - potenza NULL
 - cilindrata NOT NULL
 - peso NULL
