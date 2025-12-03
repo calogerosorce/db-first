@@ -22,4 +22,3 @@ Columms:
 - cilindrata SMALLINT NOT NULL (900CC)
 - peso SMALLINT NULL
 - classe_euro CHAR(5) NOT NULL
-- cambio VARCHAR(15) NOT NULL
