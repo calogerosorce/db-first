@@ -3,22 +3,22 @@
 Columms:
 
 - id BIG PK AI NOT NULL
-- macchina VARCHAR(30) NOT NULL
-- modello VARCHAR(60) NOT NULL
-- condizioni VARCHAR(200) NOT NULL
-- anno SMALL NOT NULL
-- immagine NULL
-- disponibilità TINYINT DEFAULT(0)
+- casa_produttrice VARCHAR(50) NOT NULL
+- modello VARCHAR(50) NOT NULL
+- condizioni? VARCHAR(200) NOT NULL
+- anno YEAR NOT NULL
+- immagine_url VARCHAR(255) NULL
+- disponibilita TINYINT DEFAULT(0)
 - note TEXT NULL
-- prezzo SMALL NOT NULL
-- numero_telaio INT NOT NULL
-- km NOT NULL FLOAT(8,2)
+- prezzo FLOAT(8,2) NOT NULL
+- numero_telaio CHAR(17) NOT NULL
+- km FLOAT(8,2) NOT NULL 
 - targa VARCHAR(8) NULL
 - carburante VARCHAR(10) NOT NULL
-- porte SMALL NOT NULL
+- porte TYNINT NOT NULL
 - anno_di_immatricolazione YEAR NOT NULL
 - tipo_di_cambio VARCHAR(10) NOT NULL
-- potenza SMALL NULL
-- cilindrata SMALL NOT NULL
-- peso SMALL NULL
+- potenza SMALLINT NOT NULL  (60 KW)
+- cilindrata SMALLINT NOT NULL (900CC)
+- peso SMALLINT NULL
 - classe_euro CHAR(5) NOT NULL
